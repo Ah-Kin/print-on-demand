@@ -2,22 +2,35 @@ div.table-bordered {
   border-bottom-style: none;
 
 }
-
+.dataTables_length {
+    float: left;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.dataTables_filter {
+  float: right;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+}
+}
 .table-container {
   max-width: 65%;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 25px;
+  padding-bottom: 30px;
 }
-.header {
-  position: absolute;
+.dataTables_info {
+  float: left;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-  width: 100%;
-  padding: 15px;
-  margin: 50px auto;
-
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 body {
   rgb(255, 255, 255)
@@ -27,8 +40,29 @@ h1 {
 }
 .table {
   position: relative;
-  top: 400px;
+  top: 20px;
 }
 .col {
   width: 50%;
+}
+.display-1 {
+  text-align: center;
+}
+.display-1-slogan {
+  text-align: center;
+}
+.dataTables_info {
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.paginate_button {
+  margin-top: 25px;
+  float: right;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6px 12px;
 }
