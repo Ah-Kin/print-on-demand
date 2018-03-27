@@ -34,8 +34,15 @@ div.table-bordered {
 body {
   rgb(255, 255, 255)
 }
-h1 {
+#header {
+  font-weight: 200;
   font-size: 80px;
+  margin: 100px 100px 50px 100px;
+  text-align: center;
+}
+#slogan {
+  text-align: center;
+  margin: 0px 100px 50px 100px;
 }
 .table {
   position: relative;
@@ -43,14 +50,6 @@ h1 {
 }
 .col {
   width: 50%;
-}
-.display-1 {
-  margin: 100px 100px 50px 100px;
-  text-align: center;
-}
-.display-1-slogan {
-  text-align: center;
-  margin: 0px 100px 50px 100px;
 }
 .dataTables_info {
     margin-top: 25px;
@@ -82,10 +81,7 @@ input {
   border-radius: 10px;
   background: #fff;
 }
-header {
-  height: 50px;
-  background-color: gray;
-}
+
 footer {
   margin-top: 100px;
   height: 50px;
