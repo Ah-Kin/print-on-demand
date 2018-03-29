@@ -1,6 +1,7 @@
 $(document).ready(function () {
     'use strict';
-    $("#table-website-and-links").DataTable({
-        "order": [[ 0, "asc" ]]
+    $('#table-website-and-links').DataTable({
+        "lengthMenu": [[50, -1], [50, "All"]]
     });
+
 });

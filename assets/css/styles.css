@@ -1,46 +1,39 @@
-div.table-bordered {
-  border-bottom-style: none;
-}
-.dataTables_length {
-    float: left;
+div#container.container {
+  margin-bottom: 100px !important;
+  }
+div#table-website-and-links_length.dataTables_length {
+    float: left !important;
     max-width: 65%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.dataTables_filter {
-  float: right;
+div#table-website-and-links_filter.dataTables_filter {
+  float: right !important;
   max-width: 65%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 5px;
 }
+.pagination>li {
+    display: inline;
 }
-.table-container {
-  max-width: 65%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 30px;
-}
-.dataTables_info {
-  float: left;
+div#table-website-and-links_info.dataTables_info {
+  float: left !important;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-body {
-  rgb(255, 255, 255)
-}
-#header {
+h1#header.header {
   font-weight: 200;
   font-size: 80px;
   margin: 100px 100px 50px 100px;
   text-align: center;
 }
-#slogan {
+h6#slogan.slogan {
   text-align: center;
   margin: 0px 100px 50px 100px;
 }
@@ -49,41 +42,124 @@ body {
   top: 20px;
 }
 .col {
-  width: 50%;
+  width: 50% !important;
 }
-.dataTables_info {
+div#table-website-and-links_info.dataTables_info {
+    float: left;
     margin-top: 25px;
-    display: block;
+    display: inline;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    max-width: 50%;
 }
-.paginate_button {
-  margin-top: 25px;
+a#table-website-and-links_previous.paginate_button.previous.disabled {
+    float: right;
+    display: inline;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+a#table-website-and-links_next.paginate_button.next {
   float: right;
-  max-width: 100%;
+  display: inline;
   margin-left: auto;
   margin-right: auto;
-  padding: 6px 12px;
+  max-width: 50%;
 }
-div.containner {
-  max-width: 65%;
+div#table-website-and-links_paginate.dataTables_paginate.paging_simple_numbers {
+  float: right;
+  margin-top: 25px;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+}
+#table-header {
+  background-color: #e6e6e6;
+}
+#table-footer {
+  background-color: #e6e6e6;
+}
+table#table-website-and-links.table.table-bordered.dataTable{
+  table-layout: auto;
   margin-left: auto;
   margin-right: auto;
 }
-#table-website-and-links_wrapper {
+div#table-website-and-links_wrapper.dataTables_wrapper {
   max-width: 65%;
   margin-left: auto;
   margin-right: auto;
 }
 input {
-  border: 2px solid gray;
-  border-radius: 10px;
-  background: #fff;
+  border: 1px solid gray !important;
+  border-radius: 5px !important;
+  background: #fff !important;
+}
+input#mc-embedded-subscribe.button {
+  color: black;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 2px !important;
+}
+div#Copyright.Copyright {
+  height: auto;
+  text-align: center;
+  border-top: 100px;
+}
+#mc_embed_signup {
+  background:#fff ;
+  clear:left;
+  font:14px Helvetica,Arial,sans-serif;
+  width:100%;
+}
+div#MailChimp.MailChimp {
+  max-width: 50% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 150px !important;
+}
+div#center-MailChimp.center-MailChimp {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
-footer {
-  margin-top: 100px;
-  height: 50px;
-  background-color: gray;
+div.label {
+  text-align: center;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+div#mc_embed_signup_scroll {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border: 1px solid gray !important;
+  border-radius: 5px !important;
+  background: #e6e6e6 !important;
+  padding: 15px!important;
+  max-width: 55% !important;
+  min-width: 300px !important;
+
+}
+input#mce-EMAIL.email.left {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 2px !important;
+  margin-bottom: 15px !important;
+}
+#subscription {
+  font-weight: bold !important;
+  margin-bottom: 5px !important;
+}
+p.footer.copyright {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2px !important;
+}
+p.footer.print-on-demand {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
